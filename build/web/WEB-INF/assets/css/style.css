@@ -1,0 +1,220 @@
+/*
+Nombre: Diana Valeria Gómez López
+No. cuenta: 312338479
+*/
+
+/*GENERAL*/
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+footer, header, section{
+	display: block;
+}
+body {
+	font-family: 'VT323', monospace;
+	width: 100%;
+	color: #4d4d4d;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header {
+	height: 100px;
+	font-size: 90px;
+	color: #000000;
+	text-align: center;
+	background-image: url("stardivider.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-origin: padding-box;
+}
+
+.topnav {
+	padding: 0;
+	width: 100%;
+  overflow: hidden;
+	display: inline-block;
+        font-size: 25px;
+}
+
+.topnav .buscar {
+  float: right;
+  
+}
+
+.topnav input[type=text] {
+	font-family: 'VT323', monospace;
+  padding: 6px;
+  margin-top: 8px;
+  border:  3px solid #4d4d4d;
+}
+
+
+/*CONTENT*/
+
+.info {
+	width: 100%;
+	font-size: 50px;
+}
+
+.tarjeta {
+	width: 500px;
+	height: 300px;
+	font-size: 22px;
+	border: 10px double #4d4d4d;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+	display: inline-block;
+	box-sizing: border-box;
+	column-count: 2;
+	text-align: left;
+	column-width: 50%;
+	background-color: #ffffff;
+	vertical-align: text-top;
+
+}
+
+.login {
+	width: 500px;
+	height: 300px;
+	font-size: 40px;
+	border: 10px double #4d4d4d;
+	border-radius: 5px;
+	padding: 5px;
+        margin: 0 auto;
+        margin-top: 100px;
+	text-align: left;
+	background-color: #ffffff;
+	vertical-align: text-top;
+
+}
+
+
+.tarjeta li {
+	list-style-image: url("ball.png");
+}
+
+.tarjeta a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.tarjeta a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+.nombre {
+	font-size: 30px;
+	color: #6699ff;
+	text-shadow: 0px 0px;
+}
+
+.tarjeta img {
+	height: 200px;
+	width: 200px;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 70px 0;
+	text-align: center;
+	display: box;
+	box-sizing: border-box;
+
+
+}
+
+#pika:hover {
+	border: 10px double #ffff80;
+	border-radius: 5px;
+	background-color: #ffffba;
+}
+
+#mew:hover {
+	border: 10px double #ff808c;
+	border-radius: 5px;
+	background-color: #ffb3ba;
+}
+
+#marill:hover {
+	border: 10px double #80c8ff;
+	border-radius: 5px;
+	background-color: #bae1ff;
+}
+
+#vulpix:hover {
+	border: 10px double #ffb866;
+	border-radius: 5px;
+	background-color: #ffdfba;
+}
+
+#poliwag:hover {
+	border: 10px double #80c8ff;
+	border-radius: 5px;
+	background-color: #bae1ff;
+}
+
+#politoed:hover {
+	border: 10px double #99ff66;
+	border-radius: 5px;
+	background-color: #ccffb3;
+}
+
+#umbreon:hover {
+	border: 10px double #999999;
+	border-radius: 5px;
+	background-color: #e6e6e6;
+}
+
+#espeon:hover {
+	border: 10px double #bb99ff;
+	border-radius: 5px;
+	background-color: #ddccff;
+}
+
+.centrar {
+	width: 100%;
+}
+
+.centrar button {
+	font-size: 25px;
+	font-family: 'VT323', monospace;
+	border: 5px double #4d4d4d;
+	background-color: #ffffff;
+	padding: 10px;
+
+}
+
+.centrar button:hover {
+	border: 5px double #4d4d4d;
+	background-color: #d9d9d9;
+	cursor: pointer;
+
+}
+
+
+
+/*FOOTER*/
+.footer {
+	height: 80%;
+	background-image: url("colorpokeballs.gif");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-origin: padding-box;
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+
+}
